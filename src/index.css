@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+
+.container1 {
+  max-width: 897px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.container2{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.b-r {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.bt {
+  border: 2px solid;
+  border-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(8, 8, 8, 1) 100%) 1;
+  /* border: 2px solid #fff; */
+  /* border-right: none; */
+}
+
+
+.swiper-button-next {
+  right: -10px !important;
+}
+
+
+
+.slider {
+  position: relative;
+}
+
+.swiper-button-prev1, .swiper-button-next1{
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.swiper-button-prev1 {
+  left: -65px;
+}
+
+.swiper-button-next1 {
+  right: -65px;
+}
+
+.menu {
+  transform: translateX(100%);
+  transition: .4s ease;
+}
+
+.active {
+  transform: translateX(0);
+}
