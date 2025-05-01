@@ -22,7 +22,7 @@ const Works = () => {
                 titleColor={'#080808'}
             />
 
-            <div className="slider">
+            <div className="slider pb-[50px]">
 
                 <Swiper
                     ref={swiperRef}  // Привязываем реф к экземпляру Swiper

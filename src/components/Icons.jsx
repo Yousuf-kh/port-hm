@@ -10,7 +10,7 @@ const Icons = () => {
         <p className='text-white p-[10px] font-[14px] font-400'>Worked with</p>
         <div style={{
           display:'grid',
-          gridTemplateColumns: "repeat(auto5-fit, minmax(120px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(120px, 1fr))",
           gap:'30px'
         }}>
           <div className="click border-[grey] flex justify-center items-center text-[grey] font-bold h-[60px] border-1 rounded">
